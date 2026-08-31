@@ -16,7 +16,7 @@ async def main():
     await init_db()
 
     # 2. Инициализация бота и диспетчера
-    bot = Bot(token=BOT_TOKEN)
+    bot = Bot(token="8998815871:AAGYQGIzfW_Kws_VZj9TMTYx7sNPJBgm7Ro")
     dp = Dispatcher(storage=MemoryStorage())
 
     # 3. Подключение всех роутеров из папки handlers
