@@ -11,4 +11,4 @@ DB_PATH = os.getenv("DB_PATH", str(BASE_DIR / "kinza_crm.db"))
 
 # ID администраторов через запятую в .env: ADMIN_IDS=12345678,87654321
 raw_admins = os.getenv("ADMIN_IDS", "")
-ADMIN_IDS =5217847939,
+ADMIN_IDS =
